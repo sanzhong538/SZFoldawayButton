@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5245D59F1CF53CB200163AA1 /* AddWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245D59E1CF53CB200163AA1 /* AddWindowController.m */; };
+		5245D5A21CF53D9300163AA1 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245D5A11CF53D9300163AA1 /* AddViewController.m */; };
+		5245D5A51CF542E500163AA1 /* FixPlaceCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245D5A41CF542E500163AA1 /* FixPlaceCircleController.m */; };
+		5245D5A81CF54A3200163AA1 /* FixPlaceLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245D5A71CF54A3200163AA1 /* FixPlaceLineController.m */; };
+		5245D5AB1CF54F0F00163AA1 /* MoveCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245D5AA1CF54F0F00163AA1 /* MoveCircleController.m */; };
+		5245D5AE1CF5503800163AA1 /* MoveLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245D5AD1CF5503800163AA1 /* MoveLineController.m */; };
+		5245D5B11CF5519B00163AA1 /* AddImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5245D5B01CF5519B00163AA1 /* AddImageController.m */; };
+		5245D5B41CF5523200163AA1 /* backgroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5245D5B21CF5523200163AA1 /* backgroundStar@2x.png */; };
+		5245D5B51CF5523200163AA1 /* foregroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5245D5B31CF5523200163AA1 /* foregroundStar@2x.png */; };
+		524EFF4D1CF4422C00E7D46E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EFF4C1CF4422C00E7D46E /* main.m */; };
+		524EFF501CF4422C00E7D46E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EFF4F1CF4422C00E7D46E /* AppDelegate.m */; };
+		524EFF561CF4422C00E7D46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524EFF541CF4422C00E7D46E /* Main.storyboard */; };
+		524EFF581CF4422C00E7D46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524EFF571CF4422C00E7D46E /* Assets.xcassets */; };
+		524EFF5B1CF4422C00E7D46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524EFF591CF4422C00E7D46E /* LaunchScreen.storyboard */; };
+		524EFF661CF4422D00E7D46E /* SZFoldawayButton_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EFF651CF4422D00E7D46E /* SZFoldawayButton_demoTests.m */; };
+		524EFF711CF4422D00E7D46E /* SZFoldawayButton_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EFF701CF4422D00E7D46E /* SZFoldawayButton_demoUITests.m */; };
+		524EFFA41CF44CA200E7D46E /* SZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EFF9D1CF44CA200E7D46E /* SZButton.m */; };
+		524EFFA51CF44CA200E7D46E /* SZFoldawayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EFF9F1CF44CA200E7D46E /* SZFoldawayButton.m */; };
+		524EFFA61CF44CA200E7D46E /* SZFoldawayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EFFA11CF44CA200E7D46E /* SZFoldawayModel.m */; };
+		524EFFA71CF44CA200E7D46E /* UIView+SZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 524EFFA31CF44CA200E7D46E /* UIView+SZFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524EFF621CF4422D00E7D46E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524EFF401CF4422C00E7D46E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524EFF471CF4422C00E7D46E;
+			remoteInfo = SZFoldawayButton_demo;
+		};
+		524EFF6D1CF4422D00E7D46E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524EFF401CF4422C00E7D46E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524EFF471CF4422C00E7D46E;
+			remoteInfo = SZFoldawayButton_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5245D59D1CF53CB200163AA1 /* AddWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWindowController.h; sourceTree = "<group>"; };
+		5245D59E1CF53CB200163AA1 /* AddWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWindowController.m; sourceTree = "<group>"; };
+		5245D5A01CF53D9300163AA1 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		5245D5A11CF53D9300163AA1 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		5245D5A31CF542E500163AA1 /* FixPlaceCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixPlaceCircleController.h; sourceTree = "<group>"; };
+		5245D5A41CF542E500163AA1 /* FixPlaceCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixPlaceCircleController.m; sourceTree = "<group>"; };
+		5245D5A61CF54A3200163AA1 /* FixPlaceLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixPlaceLineController.h; sourceTree = "<group>"; };
+		5245D5A71CF54A3200163AA1 /* FixPlaceLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixPlaceLineController.m; sourceTree = "<group>"; };
+		5245D5A91CF54F0F00163AA1 /* MoveCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveCircleController.h; sourceTree = "<group>"; };
+		5245D5AA1CF54F0F00163AA1 /* MoveCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveCircleController.m; sourceTree = "<group>"; };
+		5245D5AC1CF5503800163AA1 /* MoveLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveLineController.h; sourceTree = "<group>"; };
+		5245D5AD1CF5503800163AA1 /* MoveLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveLineController.m; sourceTree = "<group>"; };
+		5245D5AF1CF5519B00163AA1 /* AddImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageController.h; sourceTree = "<group>"; };
+		5245D5B01CF5519B00163AA1 /* AddImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageController.m; sourceTree = "<group>"; };
+		5245D5B21CF5523200163AA1 /* backgroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@2x.png"; sourceTree = "<group>"; };
+		5245D5B31CF5523200163AA1 /* foregroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@2x.png"; sourceTree = "<group>"; };
+		524EFF481CF4422C00E7D46E /* SZFoldawayButton_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZFoldawayButton_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524EFF4C1CF4422C00E7D46E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		524EFF4E1CF4422C00E7D46E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		524EFF4F1CF4422C00E7D46E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		524EFF551CF4422C00E7D46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		524EFF571CF4422C00E7D46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524EFF5A1CF4422C00E7D46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524EFF5C1CF4422C00E7D46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524EFF611CF4422D00E7D46E /* SZFoldawayButton_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZFoldawayButton_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524EFF651CF4422D00E7D46E /* SZFoldawayButton_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFoldawayButton_demoTests.m; sourceTree = "<group>"; };
+		524EFF671CF4422D00E7D46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524EFF6C1CF4422D00E7D46E /* SZFoldawayButton_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZFoldawayButton_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524EFF701CF4422D00E7D46E /* SZFoldawayButton_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFoldawayButton_demoUITests.m; sourceTree = "<group>"; };
+		524EFF721CF4422D00E7D46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524EFF9C1CF44CA200E7D46E /* SZButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZButton.h; sourceTree = "<group>"; };
+		524EFF9D1CF44CA200E7D46E /* SZButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZButton.m; sourceTree = "<group>"; };
+		524EFF9E1CF44CA200E7D46E /* SZFoldawayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFoldawayButton.h; sourceTree = "<group>"; };
+		524EFF9F1CF44CA200E7D46E /* SZFoldawayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFoldawayButton.m; sourceTree = "<group>"; };
+		524EFFA01CF44CA200E7D46E /* SZFoldawayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFoldawayModel.h; sourceTree = "<group>"; };
+		524EFFA11CF44CA200E7D46E /* SZFoldawayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFoldawayModel.m; sourceTree = "<group>"; };
+		524EFFA21CF44CA200E7D46E /* UIView+SZFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SZFrame.h"; sourceTree = "<group>"; };
+		524EFFA31CF44CA200E7D46E /* UIView+SZFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SZFrame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524EFF451CF4422C00E7D46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524EFF5E1CF4422D00E7D46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524EFF691CF4422D00E7D46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5245D59C1CF53C8B00163AA1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5245D59D1CF53CB200163AA1 /* AddWindowController.h */,
+				5245D59E1CF53CB200163AA1 /* AddWindowController.m */,
+				5245D5A01CF53D9300163AA1 /* AddViewController.h */,
+				5245D5A11CF53D9300163AA1 /* AddViewController.m */,
+				5245D5A31CF542E500163AA1 /* FixPlaceCircleController.h */,
+				5245D5A41CF542E500163AA1 /* FixPlaceCircleController.m */,
+				5245D5A61CF54A3200163AA1 /* FixPlaceLineController.h */,
+				5245D5A71CF54A3200163AA1 /* FixPlaceLineController.m */,
+				5245D5A91CF54F0F00163AA1 /* MoveCircleController.h */,
+				5245D5AA1CF54F0F00163AA1 /* MoveCircleController.m */,
+				5245D5AC1CF5503800163AA1 /* MoveLineController.h */,
+				5245D5AD1CF5503800163AA1 /* MoveLineController.m */,
+				5245D5AF1CF5519B00163AA1 /* AddImageController.h */,
+				5245D5B01CF5519B00163AA1 /* AddImageController.m */,
+				5245D5B21CF5523200163AA1 /* backgroundStar@2x.png */,
+				5245D5B31CF5523200163AA1 /* foregroundStar@2x.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		524EFF3F1CF4422C00E7D46E = {
+			isa = PBXGroup;
+			children = (
+				524EFF4A1CF4422C00E7D46E /* SZFoldawayButton_demo */,
+				524EFF641CF4422D00E7D46E /* SZFoldawayButton_demoTests */,
+				524EFF6F1CF4422D00E7D46E /* SZFoldawayButton_demoUITests */,
+				524EFF491CF4422C00E7D46E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524EFF491CF4422C00E7D46E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524EFF481CF4422C00E7D46E /* SZFoldawayButton_demo.app */,
+				524EFF611CF4422D00E7D46E /* SZFoldawayButton_demoTests.xctest */,
+				524EFF6C1CF4422D00E7D46E /* SZFoldawayButton_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524EFF4A1CF4422C00E7D46E /* SZFoldawayButton_demo */ = {
+			isa = PBXGroup;
+			children = (
+				524EFF9B1CF44CA200E7D46E /* SZFoldawayButton */,
+				524EFF4E1CF4422C00E7D46E /* AppDelegate.h */,
+				524EFF4F1CF4422C00E7D46E /* AppDelegate.m */,
+				5245D59C1CF53C8B00163AA1 /* UI */,
+				524EFF541CF4422C00E7D46E /* Main.storyboard */,
+				524EFF571CF4422C00E7D46E /* Assets.xcassets */,
+				524EFF591CF4422C00E7D46E /* LaunchScreen.storyboard */,
+				524EFF5C1CF4422C00E7D46E /* Info.plist */,
+				524EFF4B1CF4422C00E7D46E /* Supporting Files */,
+			);
+			path = SZFoldawayButton_demo;
+			sourceTree = "<group>";
+		};
+		524EFF4B1CF4422C00E7D46E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				524EFF4C1CF4422C00E7D46E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		524EFF641CF4422D00E7D46E /* SZFoldawayButton_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				524EFF651CF4422D00E7D46E /* SZFoldawayButton_demoTests.m */,
+				524EFF671CF4422D00E7D46E /* Info.plist */,
+			);
+			path = SZFoldawayButton_demoTests;
+			sourceTree = "<group>";
+		};
+		524EFF6F1CF4422D00E7D46E /* SZFoldawayButton_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				524EFF701CF4422D00E7D46E /* SZFoldawayButton_demoUITests.m */,
+				524EFF721CF4422D00E7D46E /* Info.plist */,
+			);
+			path = SZFoldawayButton_demoUITests;
+			sourceTree = "<group>";
+		};
+		524EFF9B1CF44CA200E7D46E /* SZFoldawayButton */ = {
+			isa = PBXGroup;
+			children = (
+				524EFF9C1CF44CA200E7D46E /* SZButton.h */,
+				524EFF9D1CF44CA200E7D46E /* SZButton.m */,
+				524EFF9E1CF44CA200E7D46E /* SZFoldawayButton.h */,
+				524EFF9F1CF44CA200E7D46E /* SZFoldawayButton.m */,
+				524EFFA01CF44CA200E7D46E /* SZFoldawayModel.h */,
+				524EFFA11CF44CA200E7D46E /* SZFoldawayModel.m */,
+				524EFFA21CF44CA200E7D46E /* UIView+SZFrame.h */,
+				524EFFA31CF44CA200E7D46E /* UIView+SZFrame.m */,
+			);
+			path = SZFoldawayButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524EFF471CF4422C00E7D46E /* SZFoldawayButton_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524EFF751CF4422D00E7D46E /* Build configuration list for PBXNativeTarget "SZFoldawayButton_demo" */;
+			buildPhases = (
+				524EFF441CF4422C00E7D46E /* Sources */,
+				524EFF451CF4422C00E7D46E /* Frameworks */,
+				524EFF461CF4422C00E7D46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZFoldawayButton_demo;
+			productName = SZFoldawayButton_demo;
+			productReference = 524EFF481CF4422C00E7D46E /* SZFoldawayButton_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		524EFF601CF4422D00E7D46E /* SZFoldawayButton_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524EFF781CF4422D00E7D46E /* Build configuration list for PBXNativeTarget "SZFoldawayButton_demoTests" */;
+			buildPhases = (
+				524EFF5D1CF4422D00E7D46E /* Sources */,
+				524EFF5E1CF4422D00E7D46E /* Frameworks */,
+				524EFF5F1CF4422D00E7D46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524EFF631CF4422D00E7D46E /* PBXTargetDependency */,
+			);
+			name = SZFoldawayButton_demoTests;
+			productName = SZFoldawayButton_demoTests;
+			productReference = 524EFF611CF4422D00E7D46E /* SZFoldawayButton_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		524EFF6B1CF4422D00E7D46E /* SZFoldawayButton_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524EFF7B1CF4422D00E7D46E /* Build configuration list for PBXNativeTarget "SZFoldawayButton_demoUITests" */;
+			buildPhases = (
+				524EFF681CF4422D00E7D46E /* Sources */,
+				524EFF691CF4422D00E7D46E /* Frameworks */,
+				524EFF6A1CF4422D00E7D46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524EFF6E1CF4422D00E7D46E /* PBXTargetDependency */,
+			);
+			name = SZFoldawayButton_demoUITests;
+			productName = SZFoldawayButton_demoUITests;
+			productReference = 524EFF6C1CF4422D00E7D46E /* SZFoldawayButton_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524EFF401CF4422C00E7D46E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "吴三忠";
+				TargetAttributes = {
+					524EFF471CF4422C00E7D46E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					524EFF601CF4422D00E7D46E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 524EFF471CF4422C00E7D46E;
+					};
+					524EFF6B1CF4422D00E7D46E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 524EFF471CF4422C00E7D46E;
+					};
+				};
+			};
+			buildConfigurationList = 524EFF431CF4422C00E7D46E /* Build configuration list for PBXProject "SZFoldawayButton_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524EFF3F1CF4422C00E7D46E;
+			productRefGroup = 524EFF491CF4422C00E7D46E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524EFF471CF4422C00E7D46E /* SZFoldawayButton_demo */,
+				524EFF601CF4422D00E7D46E /* SZFoldawayButton_demoTests */,
+				524EFF6B1CF4422D00E7D46E /* SZFoldawayButton_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524EFF461CF4422C00E7D46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5245D5B41CF5523200163AA1 /* backgroundStar@2x.png in Resources */,
+				524EFF5B1CF4422C00E7D46E /* LaunchScreen.storyboard in Resources */,
+				5245D5B51CF5523200163AA1 /* foregroundStar@2x.png in Resources */,
+				524EFF581CF4422C00E7D46E /* Assets.xcassets in Resources */,
+				524EFF561CF4422C00E7D46E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524EFF5F1CF4422D00E7D46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524EFF6A1CF4422D00E7D46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524EFF441CF4422C00E7D46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5245D5A51CF542E500163AA1 /* FixPlaceCircleController.m in Sources */,
+				524EFF501CF4422C00E7D46E /* AppDelegate.m in Sources */,
+				524EFFA71CF44CA200E7D46E /* UIView+SZFrame.m in Sources */,
+				5245D5A81CF54A3200163AA1 /* FixPlaceLineController.m in Sources */,
+				524EFFA51CF44CA200E7D46E /* SZFoldawayButton.m in Sources */,
+				524EFFA41CF44CA200E7D46E /* SZButton.m in Sources */,
+				5245D59F1CF53CB200163AA1 /* AddWindowController.m in Sources */,
+				524EFF4D1CF4422C00E7D46E /* main.m in Sources */,
+				5245D5A21CF53D9300163AA1 /* AddViewController.m in Sources */,
+				524EFFA61CF44CA200E7D46E /* SZFoldawayModel.m in Sources */,
+				5245D5B11CF5519B00163AA1 /* AddImageController.m in Sources */,
+				5245D5AE1CF5503800163AA1 /* MoveLineController.m in Sources */,
+				5245D5AB1CF54F0F00163AA1 /* MoveCircleController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524EFF5D1CF4422D00E7D46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524EFF661CF4422D00E7D46E /* SZFoldawayButton_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524EFF681CF4422D00E7D46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524EFF711CF4422D00E7D46E /* SZFoldawayButton_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		524EFF631CF4422D00E7D46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524EFF471CF4422C00E7D46E /* SZFoldawayButton_demo */;
+			targetProxy = 524EFF621CF4422D00E7D46E /* PBXContainerItemProxy */;
+		};
+		524EFF6E1CF4422D00E7D46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524EFF471CF4422C00E7D46E /* SZFoldawayButton_demo */;
+			targetProxy = 524EFF6D1CF4422D00E7D46E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		524EFF541CF4422C00E7D46E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524EFF551CF4422C00E7D46E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		524EFF591CF4422C00E7D46E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524EFF5A1CF4422C00E7D46E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		524EFF731CF4422D00E7D46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		524EFF741CF4422D00E7D46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524EFF761CF4422D00E7D46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SZFoldawayButton_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.incons.SZFoldawayButton-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		524EFF771CF4422D00E7D46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SZFoldawayButton_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.incons.SZFoldawayButton-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		524EFF791CF4422D00E7D46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SZFoldawayButton_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.incons.SZFoldawayButton-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZFoldawayButton_demo.app/SZFoldawayButton_demo";
+			};
+			name = Debug;
+		};
+		524EFF7A1CF4422D00E7D46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SZFoldawayButton_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.incons.SZFoldawayButton-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZFoldawayButton_demo.app/SZFoldawayButton_demo";
+			};
+			name = Release;
+		};
+		524EFF7C1CF4422D00E7D46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SZFoldawayButton_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.incons.SZFoldawayButton-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SZFoldawayButton_demo;
+			};
+			name = Debug;
+		};
+		524EFF7D1CF4422D00E7D46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SZFoldawayButton_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.incons.SZFoldawayButton-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SZFoldawayButton_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524EFF431CF4422C00E7D46E /* Build configuration list for PBXProject "SZFoldawayButton_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524EFF731CF4422D00E7D46E /* Debug */,
+				524EFF741CF4422D00E7D46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524EFF751CF4422D00E7D46E /* Build configuration list for PBXNativeTarget "SZFoldawayButton_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524EFF761CF4422D00E7D46E /* Debug */,
+				524EFF771CF4422D00E7D46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524EFF781CF4422D00E7D46E /* Build configuration list for PBXNativeTarget "SZFoldawayButton_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524EFF791CF4422D00E7D46E /* Debug */,
+				524EFF7A1CF4422D00E7D46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524EFF7B1CF4422D00E7D46E /* Build configuration list for PBXNativeTarget "SZFoldawayButton_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524EFF7C1CF4422D00E7D46E /* Debug */,
+				524EFF7D1CF4422D00E7D46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524EFF401CF4422C00E7D46E /* Project object */;
+}
